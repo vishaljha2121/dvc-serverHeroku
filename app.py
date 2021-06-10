@@ -71,7 +71,7 @@ def run():
     print("[INFO] : Model Loaded.")
 
     # run server
-    print("[INFO] : Starting server")
+    print("[INFO] : Starting server...")
     start_server(debug=True)
 
     # fetch and save file -> load file -> predict
