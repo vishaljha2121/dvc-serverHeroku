@@ -18,7 +18,12 @@ UPLOAD_FOLDER = STATIC_FOLDER + "/uploads"
 MODEL_FOLDER = "/Models"
 
 
-@app.route("/upload", methods=["POST"])
+@app.get("/")
+def basic_view():
+    return {"WELCOME": "GO TO /docs route, or /post or send post request to /predict "}
+
+
+@app.post("/upload")
 # file upload and saving
 def upload():
     # fetch file from json input
