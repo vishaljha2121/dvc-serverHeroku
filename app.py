@@ -72,7 +72,7 @@ def run():
 
     # run server
     print("[INFO] : Starting server")
-    start_server()
+    start_server(debug=True)
 
     # fetch and save file -> load file -> predict
     " auto upload() call on post method to [/upload]"
