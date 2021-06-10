@@ -1,7 +1,6 @@
 # importing libraries
 import os
 import flask
-import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
 
